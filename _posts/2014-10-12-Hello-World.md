@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Jekyll Now
+title: Jekyll Now and life since the last post
 ---
 
 Reddit in all of it's glory directed me to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) so I figured I had better actually do something with this site for once! With that in mind, let's go over what I've been doing while not blogging for the past few months.
 
 Well for one thing I got a job! I'm now a Ruby on Rails developer with [Tictoc](http://www.tictocfamily.com) developing all sorts of websites. My previous experience with git has been invaluable. I don't know how many times I've been working on something and forgotten to switch branch so have had to 
   
-  ```
+  ~~~
   $ git stash
   $ git flow feature start new-feature
   $ git stash pop
-  ```
+  ~~~
 
 But it's probably more than I should have!
 
