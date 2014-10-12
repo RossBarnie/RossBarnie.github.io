@@ -7,9 +7,11 @@ Reddit in all of it's glory directed me to the [Jekyll Now repository](https://g
 
 Well for one thing I got a job! I'm now a Ruby on Rails developer with [Tictoc](http://www.tictocfamily.com) developing all sorts of websites. My previous experience with git has been invaluable. I don't know how many times I've been working on something and forgotten to switch branch so have had to 
   
+  ```
   $ git stash
   $ git flow feature start new-feature
   $ git stash pop
+  ```
 
 But it's probably more than I should have!
 
