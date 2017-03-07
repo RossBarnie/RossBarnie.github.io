@@ -19,8 +19,8 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: 18px/1.4 $georgia;
+  color: $darkerGray;
 }
 
 .container {
@@ -266,7 +266,7 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 15px;
   }
 }
