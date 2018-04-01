@@ -21,11 +21,11 @@ html {
 
 body {
 	background: $white;
-  @include font-size(22px, $line-height: 1.5);
+  @include font-size(22px, $line-height: $base-line-height);
   font-family: $georgia;
   color: $darkerGray;
   @include mobile {
-    @include font-size(20px, $line-height: 1.5);
+    @include font-size(20px, $line-height: $base-line-height);
   }
 }
 
@@ -262,7 +262,7 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    @include font-size(22px);
+    @include font-size(22px, $base-line-height);
     font-style: italic;
   }
 
