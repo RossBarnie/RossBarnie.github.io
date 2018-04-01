@@ -20,6 +20,9 @@ $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: 'Amiri', Georgia, serif;
 $monoStack: 'Lucida Console', 'Monaco', monospace;
 
+$base-font-size:     16px;
+$base-line-height:   22px;
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
