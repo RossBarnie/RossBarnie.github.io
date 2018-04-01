@@ -272,8 +272,7 @@ nav {
   }
 
   .read-more {
-    text-transform: capitalize;
-    @include font-size(18px);
+    @include font-size(16px, $base-line-height);
   }
 }
 
