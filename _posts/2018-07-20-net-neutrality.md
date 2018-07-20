@@ -16,3 +16,5 @@ Way back in May 2017 I also wrote a post on [how to write a good bug report](htt
 While writing it I remembered with some fondness the high school computing studies courses that drilled "INPUT, PROCESS, OUTPUT" into me as a teenager.
 
 So I'm still writing blogs, still working at tictoc and still working on problems. I recently contributed to the official [icinga2 ansible role](https://github.com/Icinga/ansible-icinga2) which I'm excited to talk about as well, so keep checking back or subscribe to the [RSS](/feed.xml) feed.
+
+Also shoutout to my fellow tictoc developer, Richard, who is [starting his own blog](http://demandingepicurean.co.uk) about his many, many (many, many...) thoughts on food and beer. He managed to convince me to stop drinking "peasant juice" (read: cheap lager), so it's probably worth occasionally listening to what he has to say.
