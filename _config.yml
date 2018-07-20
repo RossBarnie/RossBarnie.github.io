@@ -9,7 +9,7 @@ name: Ross Eric Barnie
 description: Glasgow-based Ruby on Rails developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://media.licdn.com/dms/image/C5103AQHo0UfM_BMHNA/profile-displayphoto-shrink_200_200/0?e=1527616800&v=alpha&t=XUb02gHdMxlrtIIk_K7eSt4KTYVXmsBozvxVTqYqn_0
+avatar: images/avatar.jpg
 
 #
 # Flags below are optional
@@ -73,7 +73,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
