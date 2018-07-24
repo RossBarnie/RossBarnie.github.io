@@ -29,13 +29,6 @@ body {
   }
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 10px;
-  width: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -156,34 +149,26 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
-
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1280px;
+  width: 88%;
+  margin: 0 auto;
   @include mobile {
-    text-align: center;
+    flex-direction: column;
   }
 }
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 40%;
+  margin-right: 2em;
+}
 
-.site-avatar {
-  float: left;
-  width: 80px;
-  height: 80px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
+.sticky-container {
+  top: 1.8em;
+  position: sticky;
 }
 
 .site-info {
@@ -198,8 +183,6 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
-  cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   letter-spacing: 1px;
@@ -216,29 +199,32 @@ img {
   }
 }
 
+header {
+  overflow: hidden;
+  padding: 1em 0 0;
+}
+
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin: 1em 0;
   font-family: $helveticaNeue;
   @include font-size(18px);
 
   @include mobile {
-    float: none;
-    margin-top: 9px;
     display: block;
     @include font-size(16px);
   }
 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
   a {
-    margin-left: 20px;
     color: $darkGray;
-    text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
 
     @include mobile {
-      margin: 0 10px;
-      color: $blue;
+      margin: 1em 0;
     }
   }
 }
@@ -278,18 +264,6 @@ nav {
 
 .entry {
   text-align: justify;
-}
-
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
