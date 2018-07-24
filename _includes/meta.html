@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="{{ page.title }}" />
     {% endif %}
 
-    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
     {% if page.layout == 'post' %}
     <meta property="og:type" content="article" />
