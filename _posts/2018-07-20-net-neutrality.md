@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Still writing blogs, honest!
+description: Where to find some more of my writing, plus some extra thoughts on Net Neutrality.
 ---
 
 I've not been writing much for this blog recently, however I have been writing for [tictoc](http://tictocdigital.co.uk) a fair bit.

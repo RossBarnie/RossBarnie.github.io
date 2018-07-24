@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Working with Ansible for a year
+description: Thoughts on working with Red Hat's Ansible server configuration management tool
 ---
 
 [Ansible](https://www.ansible.com/) is a tool we used at

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll Now and life since the last post
+description: How I came across and decided to start using Jekyll Now, plus future plans
 ---
 
 Reddit in all of it's glory directed me to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) so I figured I had better actually do something with this site for once! With that in mind, let's go over what I've been doing while not blogging for the past few months.
