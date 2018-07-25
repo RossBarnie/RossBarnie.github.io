@@ -1,0 +1,21 @@
+a {
+  color: $darkerGray;
+  text-decoration: none;
+  transition: color 200ms;
+  cursor: pointer;
+  &:hover, &:focus {
+    color: $blue;
+  }
+}
+.entry {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.post {
+  .read-more {
+    text-decoration: underline;
+  }
+}
+
