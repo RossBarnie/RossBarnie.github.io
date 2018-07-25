@@ -29,4 +29,4 @@ setup via my [dotfiles repo](https://github.com/RossBarnie/dotfiles).
 
 ### Contact me
 
-Feel free to contact me using any of the links in the footer.
+Feel free to contact me using any of the links in the sidebar.
