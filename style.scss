@@ -155,7 +155,7 @@ img {
   max-width: 1280px;
   width: 88%;
   margin: 0 auto;
-  @include mobile {
+  @include tablet {
     flex-direction: column;
   }
 }
@@ -163,7 +163,10 @@ img {
   display: flex;
   flex-direction: column;
   flex: 0 0 30%;
-  margin-right: 2em;
+  margin: 0 1em 0 0;
+  @include tablet {
+    margin: 0;
+  }
 }
 
 .sticky-container {
@@ -173,29 +176,30 @@ img {
 
 .site-info {
   float: left;
+  a {
+    color: $gray;
+    transition: 200ms color;
+    h1 {
+      font-family: $helveticaNeue;
+      font-weight: 300;
+      color: $darkerGray;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+      transition: 200ms color;
+    }
+    &:hover, &:focus {
+      color: $blue;
+      h1 {
+        color: $blue;
+      }
+    }
+
+  }
 
   @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-  @include font-size(16px);
-
-  @include mobile {
-    margin: 3px 0;
   }
 }
 
@@ -205,11 +209,10 @@ header {
 }
 
 nav {
-  margin: 1em 0 5em;
   font-family: $helveticaNeue;
   @include font-size(18px);
 
-  @include mobile {
+  @include tablet {
     display: block;
     margin: 1em 0;
     @include font-size(16px);
@@ -230,20 +233,20 @@ nav {
     font-weight: 300;
 
     @include mobile {
-      margin: 0 0 1em;
+      margin: 0 0 0.5em;
     }
   }
 }
 
 .social-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0;
-  @include mobile {
-    margin-top: 1em
+  @include tablet {
+    margin: 0 auto;
+    max-width: 75%;
   }
 }
-
 
 //
 // .main
