@@ -68,6 +68,11 @@ nav {
     color: $darkGray;
     display: block;
   }
+
+  .active {
+    padding: 0 1em 0;
+    color: $gray;
+  }
 }
 
 .social-links {
