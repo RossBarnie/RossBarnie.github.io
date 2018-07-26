@@ -3,18 +3,11 @@
     float: left;
     color: $gray;
     transition: color 200ms;
-    h1 {
-      font-weight: bold;
-      color: $darkerGray;
-      letter-spacing: 1px;
+    .site-name {
       margin-bottom: 5px;
-      transition: 200ms color;
     }
     &:hover, &:focus {
       color: $blue;
-      h1 {
-        color: $blue;
-      }
     }
 
     @include tablet {
@@ -67,11 +60,16 @@ nav {
   a {
     color: $darkGray;
     display: block;
+    &::after {
+      content: " >";
+    }
   }
 
   .active {
-    padding: 0 1em 0;
     color: $gray;
+    &::after {
+      content: "";
+    }
   }
 }
 
