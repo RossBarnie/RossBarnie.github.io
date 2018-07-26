@@ -4,8 +4,7 @@
     color: $gray;
     transition: color 200ms;
     h1 {
-      font-family: $helveticaNeue;
-      font-weight: 300;
+      font-weight: bold;
       color: $darkerGray;
       letter-spacing: 1px;
       margin-bottom: 5px;
@@ -42,7 +41,7 @@ header {
 }
 
 nav {
-  font-family: $helveticaNeue;
+  font-family: $monoStack;
   @include font-size(18px);
 
   @include tablet {
