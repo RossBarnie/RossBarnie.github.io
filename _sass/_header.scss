@@ -52,21 +52,21 @@ nav {
 
   ul {
     margin-top: 1em;
-    text-align: center;
+    text-align: left;
     list-style: none;
     padding: 0;
     li {
       margin: 1em 0;
-      border-bottom: 1px solid $lightGray;
+      border-bottom: 1px solid $white;
+    }
+    @include tablet {
+      text-align: center;
     }
   }
 
   a {
     color: $darkGray;
-    font-weight: 300;
-    &:active {
-      background-color: $gray;
-    }
+    display: block;
   }
 }
 
