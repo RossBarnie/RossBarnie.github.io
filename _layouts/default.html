@@ -32,7 +32,7 @@
           <nav>
             <ul>
               <li>
-                <a {% if current_path.size == 0 %} class="active" {% endif %} href="{{ site.baseurl }}/">Blog</a>
+                <a {% if current_path.size == 0 or current_path[1] != "about" %} class="active" {% endif %} href="{{ site.baseurl }}/">Blog</a>
               </li>
               <li>
                 <a {% if current_path[1] == "about" %} class="active" {% endif %} href="{{ site.baseurl }}/about">About</a>
