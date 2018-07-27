@@ -1,4 +1,11 @@
 .site-info {
+  svg {
+    display: block;
+    @include tablet {
+      margin: 0 auto;
+      max-height: 7em;
+    }
+  }
   a {
     float: left;
     color: $gray;
