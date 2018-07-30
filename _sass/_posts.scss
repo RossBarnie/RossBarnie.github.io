@@ -29,6 +29,7 @@
   }
 
   .read-more {
+    font-family: $monoStack;
     @include font-size(16px, $base-line-height);
   }
 }
