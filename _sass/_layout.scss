@@ -21,8 +21,13 @@
 .container {
   padding: 1.8em;
   margin: 0 auto;
+  width: 70%;
   @include mobile {
-    padding: 1.8em 1em;
+    padding: 1.8em 0;
+    width: 82%;
+  }
+  @include tablet {
+    width: 88%;
   }
 }
 
