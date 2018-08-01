@@ -20,7 +20,7 @@
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    @include font-size(22px, $base-line-height);
+    @include font-size(18px, $base-line-height);
     font-style: italic;
   }
 
