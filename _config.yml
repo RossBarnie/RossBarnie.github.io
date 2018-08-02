@@ -84,3 +84,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - script
+  - .travis.yml
+  - vendor
