@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono');
+
+html {
+  font-size: 100%;
+}
+
+body {
+  @include font-size(20px, $line-height: $base-line-height);
+  font-family: $sansStack;
+  color: $gray;
+  @include mobile {
+    @include font-size(18px, $line-height: $base-line-height);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $monoStack;
+  color: $darkerGray;
+  text-decoration: none;
+
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  @include font-size(26px);
+}
+
+h2 {
+  @include font-size(24px);
+}
+
+h3 {
+  @include font-size(20px);
+}
+
+h4 {
+  @include font-size(18px);
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}

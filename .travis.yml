@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.5.1
+
+script: ./script/cibuild
+
+evn:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+sudo: false
+
+cache: bundler

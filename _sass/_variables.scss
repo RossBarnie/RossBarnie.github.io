@@ -1,8 +1,3 @@
-
-//
-// VARIABLES
-//
-
 // Colors
 $blue: #4183C4;
 
@@ -15,17 +10,20 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: 'Amiri', Georgia, serif;
-$monoStack: 'Lucida Console', 'Monaco', monospace;
+$sansStack: 'Open Sans', Georgia, serif;
+$monoStack: 'Space Mono', 'Monaco', monospace;
 
 $base-font-size:     16px;
-$base-line-height:   1.4;
+$base-line-height:   1.5;
 
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: 850px) {
     @content;
   }
 }

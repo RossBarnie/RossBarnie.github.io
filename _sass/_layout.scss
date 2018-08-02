@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1100px;
+  margin: 0 auto;
+  @include tablet {
+    flex-direction: column;
+  }
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+  padding: 0 1em 0 1em;
+  background-color: $lightGray;
+  @include tablet {
+    margin: 0;
+  }
+}
+
+.container {
+  padding: 1.8em;
+  margin: 0 auto;
+  width: 70%;
+  @include mobile {
+    padding: 1.8em 0;
+    width: 82%;
+  }
+  @include tablet {
+    width: 88%;
+  }
+}
+
+.sticky-container {
+  top: 1.8em;
+  position: sticky;
+}

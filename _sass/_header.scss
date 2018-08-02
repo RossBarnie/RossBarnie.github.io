@@ -1,0 +1,91 @@
+.site-info {
+  svg {
+    display: block;
+    @include tablet {
+      margin: 0 auto;
+      max-height: 7em;
+    }
+  }
+  a {
+    float: left;
+    color: $gray;
+    transition: color 200ms;
+    .site-name {
+      margin-bottom: 5px;
+    }
+    &:hover, &:focus {
+      color: $blue;
+    }
+
+    @include tablet {
+      float: none;
+    }
+
+  }
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+header {
+  overflow: hidden;
+  text-align: left;
+  margin: 0 auto;
+  @include tablet {
+    text-align: center;
+    padding: 1em 0 0;
+  }
+}
+
+nav {
+  font-family: $monoStack;
+  @include font-size(18px);
+
+  @include tablet {
+    display: block;
+    margin: 1em 0;
+    @include font-size(16px);
+  }
+
+  ul {
+    margin-top: 1em;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 0.5em;
+      border-bottom: 1px solid $white;
+    }
+    @include tablet {
+      text-align: center;
+    }
+  }
+
+  a {
+    color: $darkGray;
+    display: block;
+    &::after {
+      content: " >>";
+    }
+  }
+
+  .active {
+    color: $gray;
+    &::after {
+      content: "";
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+  @include tablet {
+    margin: 10px auto;
+    max-width: 75%;
+  }
+}
