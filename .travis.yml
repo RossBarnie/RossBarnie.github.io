@@ -4,7 +4,7 @@ rvm:
 
 script: ./script/cibuild
 
-evn:
+env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
