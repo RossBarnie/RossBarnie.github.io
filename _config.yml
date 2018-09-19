@@ -87,3 +87,4 @@ exclude:
   - script
   - .travis.yml
   - vendor
+  - node_modules
