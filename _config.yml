@@ -88,3 +88,5 @@ exclude:
   - .travis.yml
   - vendor
   - node_modules
+  - webpack.*.js
+  - package*.json
